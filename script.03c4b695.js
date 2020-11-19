@@ -1,0 +1,1 @@
+!function(){b=60;var o=[40,b].concat([1,2,3,4]);console.log(o)}();

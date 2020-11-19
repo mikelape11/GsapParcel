@@ -1,0 +1,29 @@
+body *.dark {
+  background-color: orange;
+  color: red;
+}
+body *.light {
+  background-color: red;
+  color: orange;
+}
+
+body {
+  color: orange;
+  background-color: green;
+}
+body header {
+  background-color: orange;
+  color: red;
+  height: 10%;
+}
+body section {
+  background-color: inherit;
+  height: 85%;
+}
+body footer {
+  background-color: red;
+  color: orange;
+  height: 5%;
+}
+
+/*# sourceMappingURL=output.css.map */

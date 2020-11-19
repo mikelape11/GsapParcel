@@ -1,0 +1,27 @@
+
+@import "variables";
+@import 'mixin';
+
+
+body{
+    color:rgba($color_primary,1);
+    background-color: $color_standar;
+    header{
+        background-color: $color_primary;
+        color: $color_secondary;
+        height: 20%;
+    }
+
+    section{
+        background-color: inherit;
+        height: 35%;
+    }
+
+    footer{
+        background-color: $color_secondary;
+        color: $color_primary;
+        height: 5%;
+    }
+}
+
+
