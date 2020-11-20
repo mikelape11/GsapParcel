@@ -1,0 +1,34 @@
+"use strict";
+
+var _gsap = _interopRequireDefault(require("gsap"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+// let a = e =>{};
+// [a,b] = [40,60];
+// const rest = [1,2,3,4];
+// const other = [a,b,...rest];
+// console.log(other);
+_gsap["default"].to(".cuadrado1", {
+  duration: 2,
+  x: 480
+});
+
+_gsap["default"].to(".cuadrado2", {
+  duration: 3,
+  x: 980
+});
+
+_gsap["default"].to(".cuadrado3", {
+  duration: 4,
+  x: 1480
+});
+
+_gsap["default"].set(".cuadrado1 .cuadrado2, .cuadrado3", {
+  transformOrigin: "50% 50%"
+});
+
+_gsap["default"].to(".cuadrado1 .cuadrado2, .cuadrado3", {
+  duration: 10,
+  rotation: 100000
+});

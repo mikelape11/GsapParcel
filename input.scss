@@ -4,23 +4,31 @@
 
 
 body{
-    color:rgba($color_primary,1);
-    background-color: $color_standar;
-    header{
-        background-color: $color_primary;
-        color: $color_secondary;
-        height: 20%;
+    background-color: black;
+    .cuadrado1{
+        position: absolute;
+        margin-top: 5vh;
+        width: 300px;
+        height: 300px;
+        background-color: crimson;
+
     }
 
-    section{
-        background-color: inherit;
-        height: 35%;
+    .cuadrado2{
+        position: absolute;
+        margin-top: 35vh;
+        width: 300px;
+        height: 300px;
+        background-color: teal;
     }
 
-    footer{
-        background-color: $color_secondary;
-        color: $color_primary;
-        height: 5%;
+    .cuadrado3{
+        position: absolute;
+        margin-top: 65vh;
+        width: 300px;
+        height: 300px;
+        background-color: darkblue;
+
     }
 }
 
