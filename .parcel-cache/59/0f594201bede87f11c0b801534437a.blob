@@ -1,12 +1,12 @@
 <html>
     <head>
         <link href="ab6c362f3996448947ea9730bc580fe8" rel="stylesheet">
+        <script src="33a47a871464f5d9b6f85f58c937917a"></script>
     </head>
     <body>
-        <div class="cuadrado1"></div>
+       <div class="cuadrado1"></div>
         <div class="cuadrado2"></div>
         <div class="cuadrado3"></div>
+        <script src="13ae1efe0d9227e83aa0ebf6b3bd60fc"></script>
     </body>
-    <script src="33a47a871464f5d9b6f85f58c937917a" defer=""></script>
-    <script src="13ae1efe0d9227e83aa0ebf6b3bd60fc"></script>
 </html>

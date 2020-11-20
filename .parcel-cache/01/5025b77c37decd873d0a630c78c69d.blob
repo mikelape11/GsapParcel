@@ -4,11 +4,6 @@ var _gsap = _interopRequireDefault(require("gsap"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-// let a = e =>{};
-// [a,b] = [40,60];
-// const rest = [1,2,3,4];
-// const other = [a,b,...rest];
-// console.log(other);
 _gsap["default"].to(".cuadrado1", {
   duration: 2,
   x: 480

@@ -1,12 +1,4 @@
-// let a = e =>{};
 
-// [a,b] = [40,60];
-
-// const rest = [1,2,3,4];
-
-// const other = [a,b,...rest];
-
-// console.log(other);
 import gsap from 'gsap';
 
 gsap.to(".cuadrado1", {duration: 2, x:480});
